@@ -17,38 +17,12 @@ const StudentForm = ({ addStudent }) => {
       setDob("");
       setGrade("");
     } else {
-      alert("Please fill in all fields.");
+      alert("Please Fill In All Fields.");
     }
   };
 
   return (
-    // <form onSubmit={handleSubmit}>
-    //   <input
-    //     type="text"
-    //     placeholder="First Name"
-    //     value={firstName}
-    //     onChange={(e) => setFirstName(e.target.value)}
-    //   />
-    //   <input
-    //     type="text"
-    //     placeholder="Last Name"
-    //     value={lastName}
-    //     onChange={(e) => setLastName(e.target.value)}
-    //   />
-    //   <input
-    //     type="date"
-    //     placeholder="Date of Birth"
-    //     value={dob}
-    //     onChange={(e) => setDob(e.target.value)}
-    //   />
-    //   <input
-    //     type="number"
-    //     placeholder="Grade"
-    //     value={grade}
-    //     onChange={(e) => setGrade(e.target.value)}
-    //   />
-    //   <button type="submit">Add Student</button>
-    // </form>
+    
     <div class="container mt-4 mb-4">
       <form onSubmit={handleSubmit}>
         <div className="form-group">
